@@ -15,7 +15,7 @@ public class OrderService : IOrderService
 
         percentage = fries ? 0.1 : 0;
         if(percentage == 0) percentage = drink ? 0.15 : 0;
-        percentage = friesAndDrink ? 0.2 / 100 : percentage;
+        percentage = friesAndDrink ? 0.2 : percentage;
 
         var value = order.Amount * (decimal)percentage;
         order.Amount -=  value;
