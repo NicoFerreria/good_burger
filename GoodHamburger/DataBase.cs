@@ -14,6 +14,7 @@ public static class DataBase {
             new(){Name = "Fries", Price = 2.0M},
             new(){Name = "Soft drink", Price = 2.5M}
          }
+         //teste
     };   
     public static List<OrderDTO> Orders = [];        
 }
